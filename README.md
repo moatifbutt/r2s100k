@@ -1,2 +1,1 @@
-# R2S100K
-## Improving Semi-Supervised Uncertainty-aware Road Segmentation in Challenging Domains using Self-Training
+# R2S100K: Road-Region Segmentation Dataset For Semi-Supervised Autonomous Driving in the Wild
