@@ -23,3 +23,26 @@ teacher model, and the student model is trained on real and pseudo-labeled sets 
 We present a large-scale R2S100K dataset to train and evaluate supervised/semi-supervised methods in challenging road scenarios. Our dataset can be downloaded from this [drive-link](https://drive.google.com/drive/folders/1Kstw2JGDjTrAXMKHjMN7fIVT3sTRqmRQ?usp=sharing).
 
 ![image](https://github.com/user-attachments/assets/fcae628b-2111-43a9-8c98-822f4b14fec2)
+
+## For Training 
+- Train the model for the first time on the road detection dataset CARL-DATASET. Before starting training, please place the downloaded dataset folders (train, train_labels, test, test_labels, val, and val_labels) in CARL-Dataset directory. After completion, verify the root paths and other configurations in 'config.py'.
+```
+python train.py --resume-training no
+```
+## For Testing 
+
+### Test the model on the image 
+
+-  Use this python script to apply pixel level segmentation on any image of your choice.
+```
+python test_road_detection.py --model-path <path to saved checkpoint/weight file> --input <path to vid>.
+```
+example: python test.py --model-path model.pth --input abc.jpg
+
+### Test the model on the video 
+
+-  Use this python script to apply pixel level segmentation on any videos of your choice.
+```
+python test_vid.py --input <path to vid> --model-path <path to saved checkpoint/weight file>.
+```
+example: python test_vid.py --input <path_of_video>.mp4 --model-path model.pth
