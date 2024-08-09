@@ -20,7 +20,7 @@ teacher model, and the student model is trained on real and pseudo-labeled sets 
 6. TensorboardX (https://pypi.org/project/tensorboardX/), (pip install tensorboardX)
 
 ## Dataset 
-We present a large-scale R2S100K dataset to train and evaluate supervised/semi-supervised methods in challenging road scenarios. Our dataset can be downloaded from this [drive-link](https://drive.google.com/drive/folders/1Kstw2JGDjTrAXMKHjMN7fIVT3sTRqmRQ?usp=sharing).
+We present a large-scale R2S100K dataset to train and evaluate supervised/semi-supervised methods in challenging road scenarios. You can send an email at 'matifbutt@outlook.com' to get access to our R2S100K dataset. Our labeled dataset contains over 14000 images with 14 diverse road region classes, which are enlisted below along with their definition.
 
 ![image](https://github.com/user-attachments/assets/fcae628b-2111-43a9-8c98-822f4b14fec2)
 
