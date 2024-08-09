@@ -67,3 +67,13 @@ example: python test.py --model-path model.pth --input abc.jpg
 python test_vid.py --input <path to vid> --model-path <path to saved checkpoint/weight file>.
 ```
 example: python test_vid.py --input <path_of_video>.mp4 --model-path model.pth
+
+### Citation
+```
+@article{butt2023r2s100k,
+  title={R2S100K: Road-Region Segmentation Dataset For Semi-Supervised Autonomous Driving in the Wild},
+  author={Butt, Muhammad Atif and Ali, Hassan and Qayyum, Adnan and Sultani, Waqas and Al-Fuqaha, Ala and Qadir, Junaid},
+  journal={arXiv preprint arXiv:2308.06393},
+  year={2023}
+}
+```
