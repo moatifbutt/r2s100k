@@ -3,7 +3,7 @@
 
 [[arXiv](https://arxiv.org/abs/2308.06393)] [[Project](https://r2s100k.github.io/)]
 
-## R2S100K Dataset
+
 ![teaser](assets/Dataset-Images-extended.jpg)
 ***TL;DB*** Examples of our dataset images covering a wide array of roadways, varying across different lighting and weather conditions. Instead of considering the whole paved road region as one class, we distinguish safe asphalt road region and its associated atypical classes found on unstructured roads such as distress, wet surface, gravel, boggy, vegetation misc., crag-stone, road grime, drainage grate, earthen, water puddle, misc., speed breakers, and concrete road patches.
 
