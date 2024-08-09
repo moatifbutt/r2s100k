@@ -24,11 +24,30 @@ We present a large-scale R2S100K dataset to train and evaluate supervised/semi-s
 
 ![image](https://github.com/user-attachments/assets/fcae628b-2111-43a9-8c98-822f4b14fec2)
 
-## For Training 
-- Train the model for the first time on the road detection dataset CARL-DATASET. Before starting training, please place the downloaded dataset folders (train, train_labels, test, test_labels, val, and val_labels) in CARL-Dataset directory. After completion, verify the root paths and other configurations in 'config.py'.
+## Training
+### Training Teacher Model
+- Train the teacher model on the our labeled R2S100K dataset. Before starting training, place the downloaded dataset folders (train, train_labels, test, test_labels, val, and val_labels) in the data directory. After completion, verify the root paths and other configurations in 'config.py'.
+
 ```
 python train.py --resume-training no
 ```
+
+### Generating Psuedo-labels
+- After training teacher model, pseudo-labels can be generated using following script. We will release our unlabeled data soon.
+
+```
+generate_pseudo_labels.ipynb
+```
+
+- Psuedo-labeled data can then be integrated with real-labeled data as terms the original data directory structure.
+
+### Training Student Model
+- After completion of pseudo-labeling, verify the root paths and other configurations in 'config.py'. Also, model can be changed in 'model.py'.
+
+```
+python train.py --resume-training no
+```
+
 ## For Testing 
 
 ### Test the model on the image 
