@@ -70,10 +70,14 @@ example: python test_vid.py --input <path_of_video>.mp4 --model-path model.pth
 
 # Citation
 ```
-@article{butt2023r2s100k,
-  title={R2S100K: Road-Region Segmentation Dataset For Semi-Supervised Autonomous Driving in the Wild},
+@article{butt2025r,
+  title={R 2 S100K: Road-Region Segmentation Dataset for Semi-supervised Autonomous Driving in the Wild},
   author={Butt, Muhammad Atif and Ali, Hassan and Qayyum, Adnan and Sultani, Waqas and Al-Fuqaha, Ala and Qadir, Junaid},
-  journal={arXiv preprint arXiv:2308.06393},
-  year={2023}
+  journal={International Journal of Computer Vision},
+  volume={133},
+  number={2},
+  pages={910--928},
+  year={2025},
+  publisher={Springer}
 }
 ```
