@@ -83,4 +83,4 @@ example: python test_vid.py --input <path_of_video>.mp4 --model-path model.pth
 ```
 ## ACKNOWLEDGEMENT 
 
--  The authors would like to acknowledge and sincerely thank [Ms. Marya Rasib—https://scholar.google.com/citations?user=KjDNoYUAAAAJ&hl=en] for her valuable assistance in dataset preparation, annotation, and labeling. Her contributions significantly supported the quality and completion of this work.
+-  The authors would like to acknowledge and sincerely thank [Marya Rasib](https://scholar.google.com/citations?user=KjDNoYUAAAAJ&hl=en) for her valuable assistance in dataset preparation, annotation, and labeling. Her contributions significantly supported the quality and completion of this work.
